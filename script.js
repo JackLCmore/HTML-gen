@@ -43,9 +43,11 @@ function generateHTML(response){
     <body>
     <section class="card">
     <h1>${response.name}</h1>
-    <h2>${response.location}</h2>
+    <div class="meat">
+    <h2>Location:${response.location}</h2>
     <p>${response.bio}</p>
-    <h3>Contact</h3>
+    </div>
+    <h3>Contact:</h3>
     <a href="${response.LinkedIn}" target="_blank">LinkedIn</a></br>
     <a href="${response.GitHub}" target="_blank">GitHub</a>
     </section>

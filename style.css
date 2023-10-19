@@ -1,4 +1,25 @@
 .card{
-    margin: 10%;
-    background-color: royalblue;
+    align-items: center;
+    margin:10% 20% 20%;
+    background-color: lightblue;
+}
+h1{
+    font-family:cursive;
+    background-color: lightgrey;
+    padding: 10px;
+    border-radius: 10%;
+}
+h2, p{
+    text-align: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background-color: gray;
+    border-radius: 10%;
+}
+.meat{
+    width: 100%;
+    background-color: white;
 }
